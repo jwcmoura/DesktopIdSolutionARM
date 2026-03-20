@@ -29,6 +29,7 @@ Usuários de Macs com Apple Silicon (especialmente M4) podem enfrentar:
 📌 Causa provável: incompatibilidade entre **Qt + OpenGL + macOS Tahoe (ARM)**
 ⚠️ Exemplo do alerta do macOS
 Se o app tentar abrir e ocorrer erro, você verá algo assim:
+
 ![Alerta de erro](assets/erro.jpg)
 
 ### 🔍 Diagnóstico técnico
@@ -110,7 +111,7 @@ Para contornar este bloqueio, siga os passos:
 
 Você verá algo como a imagem abaixo ao permitir a execução:
 
-![Abrir mesmo assim](assets/querabrirmesmoassim.jpg)
+![Abrir mesmo assim](assets/abrirmesmoassim.jpg)
 
 💡 Isso é um comportamento padrão do macOS para apps/scripts não assinados.  
 O script é seguro e desenvolvido por **@JWCMOURA**.
