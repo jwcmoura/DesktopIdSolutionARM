@@ -74,7 +74,7 @@ QT_OPENGL=software
 ## 📦 Instalação
 
 1. Baixe o arquivo `.dmg`
-2. Arraste para paste de Aplicativos
+2. Arraste para pasta de Aplicativos
 3. Localize o arquivo:
 
 ```
