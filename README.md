@@ -85,6 +85,8 @@ DesktopID Solution ARM.sh
 
 ## ▶️ Como usar
 
+![Selecione o desktopID.app](assets/buscar.jpeg)
+
 1. Dê duplo clique no arquivo:
 
 ```
@@ -92,9 +94,14 @@ DesktopID Solution ARM.sh
 ```
 
 2. Siga as instruções na tela  
-3. Selecione o `desktopID.app` quando solicitado  
+3. Selecione o `desktopID.app` quando solicitado
+   
 
 ✔️ O aplicativo será iniciado automaticamente com as correções aplicadas
+
+Após a execução bem-sucedida do script, você verá o seguinte:
+
+![Aplicativo iniciado](assets/executado.jpg)
 
 ⚠️ Se o app não abrir
 
