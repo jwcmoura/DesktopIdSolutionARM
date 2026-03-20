@@ -103,6 +103,7 @@ Clique em OK para fechar o alerta.
 Abra Preferências do Sistema > Segurança e Privacidade > Aba Geral.
 Na parte inferior, aparecerá a opção para permitir a execução do app/script. Clique em Abrir Mesmo Assim.
 Confirme para liberar a execução.
+
 Isso é um comportamento padrão do macOS para apps/scripts não assinados. O script é seguro e desenvolvido por @jwcmoura.
 ---
 
