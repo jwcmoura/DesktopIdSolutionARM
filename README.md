@@ -78,7 +78,7 @@ QT_OPENGL=software
 3. Localize o arquivo:
 
 ```
-DesktopID Solution ARM.sh
+DesktopID Solution ARM.app
 ```
 
 ---
@@ -89,7 +89,7 @@ DesktopID Solution ARM.sh
 1.  Clique no app:
 
 ```
-DesktopID Solution ARM.sh
+DesktopID Solution ARM.app
 ```
 
 2. Siga as instruções na tela
