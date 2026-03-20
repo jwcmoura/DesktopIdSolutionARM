@@ -14,7 +14,7 @@
 
 O **DesktopID Solution ARM** é uma solução prática e eficiente para corrigir um erro crítico presente no macOS **Tahoe 26.3**, onde o aplicativo `desktopID` pode encerrar inesperadamente devido a falhas no sistema gráfico.
 
-Este projeto é distribuído como um arquivo `.zip`, permitindo uso rápido e direto, sem necessidade de instalação complexa.
+Este projeto é distribuído como um arquivo `.dmg`, permitindo uso rápido e direto, sem necessidade de instalação complexa.
 
 ---
 
@@ -73,8 +73,8 @@ QT_OPENGL=software
 
 ## 📦 Instalação
 
-1. Baixe o arquivo `.zip`
-2. Extraia o conteúdo
+1. Baixe o arquivo `.dmg`
+2. Arraste para paste de Aplicativos
 3. Localize o arquivo:
 
 ```
@@ -86,7 +86,7 @@ DesktopID Solution ARM.sh
 ## ▶️ Como usar
 
 
-1. Dê duplo clique no arquivo:
+1.  Clique no app:
 
 ```
 DesktopID Solution ARM.sh
