@@ -96,19 +96,14 @@ Se ao abrir o script/macOS exibir a mensagem:
 
 "A Apple não pôde verificar se o item DesktopID Solution ARM está livre de algum malware capaz de danificar o Mac ou comprometer sua privacidade."
 
-(como mostrado na imagem do alerta do macOS Gatekeeper),
+(como mostrado na imagem do alerta do macOS),
 
-siga estes passos para abrir mesmo assim:
-
+- siga estes passos para abrir mesmo assim:
 Clique em OK para fechar o alerta.
-
 Abra Preferências do Sistema > Segurança e Privacidade > Aba Geral.
-
 Na parte inferior, aparecerá a opção para permitir a execução do app/script. Clique em Abrir Mesmo Assim.
-
 Confirme para liberar a execução.
-
-Isso é um comportamento padrão do macOS para apps/scripts não assinados. O script é seguro e desenvolvido por @jwcmoura para uso pessoal.
+Isso é um comportamento padrão do macOS para apps/scripts não assinados. O script é seguro e desenvolvido por @jwcmoura.
 ---
 
 ## ⚙️ O que o script faz
