@@ -85,7 +85,6 @@ DesktopID Solution ARM.sh
 
 ## ▶️ Como usar
 
-![Selecione o desktopID.app](assets/buscar.jpg)
 
 1. Dê duplo clique no arquivo:
 
@@ -93,8 +92,11 @@ DesktopID Solution ARM.sh
 DesktopID Solution ARM.sh
 ```
 
-2. Siga as instruções na tela  
-3. Selecione o `desktopID.app` quando solicitado
+2. Siga as instruções na tela
+   
+   ![Selecione o desktopID.app](assets/buscar.jpg)
+   
+5. Selecione o `desktopID.app` quando solicitado
    
 
 ✔️ O aplicativo será iniciado automaticamente com as correções aplicadas
