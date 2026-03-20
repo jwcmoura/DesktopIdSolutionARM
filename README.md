@@ -1,4 +1,6 @@
-# DesktopIdSolutionARM
+Perfeito! Você quer que o README mostre **uma imagem se o app não abrir** (`naofoiaberto.jpg`) e outra para explicar como abrir mesmo assim (`querabrirmesmoassim.jpg`), certo? Aqui está um **bloco único em Markdown** pronto para copiar e colar:
+
+```markdown
 # 🛠️ DesktopID Solution ARM
 
 ![Platform](https://img.shields.io/badge/platform-macOS%20ARM-blue)
@@ -39,10 +41,12 @@ Os crash reports indicam:
 
 **Stack trace típico:**
 ```
+
 QOpenGLContext::swapBuffers
 NSOpenGLContext flushBuffer
 CGLFlushDrawable
-```
+
+````
 
 📌 Causa provável: incompatibilidade entre **Qt + OpenGL + macOS Tahoe (ARM)**
 
@@ -57,11 +61,11 @@ O **DesktopID Solution ARM** resolve o problema ao forçar o uso de renderizaç�
 ```bash
 QT_QUICK_BACKEND=software
 QT_OPENGL=software
-```
+````
 
-✔️ Elimina crashes  
-✔️ Estabiliza o aplicativo  
-✔️ Não altera o app original  
+✔️ Elimina crashes
+✔️ Estabiliza o aplicativo
+✔️ Não altera o app original
 
 ---
 
@@ -85,65 +89,69 @@ DesktopID Solution ARM.sh
 DesktopID Solution ARM.sh
 ```
 
-2. Siga as instruções na tela  
-3. Selecione o `desktopID.app` quando solicitado  
+2. Siga as instruções na tela
+3. Selecione o `desktopID.app` quando solicitado
 
 ✔️ O aplicativo será iniciado automaticamente com as correções aplicadas
 
-⚠️ Aviso Importante ao Abrir
+---
 
-Se ao abrir o script/macOS exibir a mensagem:
+## ⚠️ Se o app não abrir
 
-"A Apple não pôde verificar se o item DesktopID Solution ARM está livre de algum malware capaz de danificar o Mac ou comprometer sua privacidade."
+Se o macOS exibir a mensagem de erro (como mostrado abaixo), o aplicativo não será aberto:
 
-(como mostrado na imagem do alerta do macOS),
+![App não abriu](assets/naofoiaberto.jpg)
 
-- siga estes passos para abrir mesmo assim:
-Clique em OK para fechar o alerta.
-Abra Preferências do Sistema > Segurança e Privacidade > Aba Geral.
-Na parte inferior, aparecerá a opção para permitir a execução do app/script. Clique em Abrir Mesmo Assim.
-Confirme para liberar a execução.
+Para contornar este bloqueio, siga os passos:
 
-Isso é um comportamento padrão do macOS para apps/scripts não assinados. O script é seguro e desenvolvido por @jwcmoura.
+1. Clique em **OK** para fechar o alerta.
+2. Vá em **Preferências do Sistema → Segurança e Privacidade → Aba Geral**
+3. Na parte inferior, aparecerá a opção para permitir a execução do app/script. Clique em **Abrir Mesmo Assim**.
+4. Confirme para liberar a execução.
+
+![Abrir mesmo assim](assets/querabrirmesmoassim.jpg)
+
+> Isso é um comportamento padrão do macOS para apps/scripts não assinados. O script é seguro e desenvolvido por @JWCMOURA.
+
 ---
 
 ## ⚙️ O que o script faz
 
-- Abre seletor de aplicativo (Finder)
-- Localiza o executável interno (`Contents/MacOS`)
-- Aplica variáveis de ambiente seguras
-- Verifica se o processo já está rodando
-- Inicia o app em background
-- Exibe notificações do sistema
+* Abre seletor de aplicativo (Finder)
+* Localiza o executável interno (`Contents/MacOS`)
+* Aplica variáveis de ambiente seguras
+* Verifica se o processo já está rodando
+* Inicia o app em background
+* Exibe notificações do sistema
 
 ---
 
 ## 🚀 Funcionalidades
 
-- ✅ Corrige erro `EXC_BAD_ACCESS`
-- ✅ Evita falhas de OpenGL / Qt
-- ✅ Execução simples (duplo clique)
-- ✅ Compatível com Apple Silicon (M1, M2, M3, M4)
-- ✅ Não requer instalação
-- ✅ Seguro e não invasivo
+* ✅ Corrige erro `EXC_BAD_ACCESS`
+* ✅ Evita falhas de OpenGL / Qt
+* ✅ Execução simples (duplo clique)
+* ✅ Compatível com Apple Silicon (M1, M2, M3, M4)
+* ✅ Não requer instalação
+* ✅ Seguro e não invasivo
 
 ---
 
 ## 💻 Requisitos
 
-| Requisito | Detalhe |
-|----------|--------|
-| Sistema | macOS Tahoe 26.x |
-| Arquitetura | Apple Silicon (ARM64) |
-| Necessário | `desktopID.app` instalado |
+| Requisito   | Detalhe                   |
+| ----------- | ------------------------- |
+| Sistema     | macOS Tahoe 26.x          |
+| Arquitetura | Apple Silicon (ARM64)     |
+| Necessário  | `desktopID.app` instalado |
 
 ---
 
 ## 🔒 Segurança
 
-- Nenhuma modificação no sistema
-- Nenhuma alteração no app original
-- Execução isolada via script
+* Nenhuma modificação no sistema
+* Nenhuma alteração no app original
+* Execução isolada via script
 
 ---
 
@@ -151,8 +159,8 @@ Isso é um comportamento padrão do macOS para apps/scripts não assinados. O sc
 
 **William Moura**
 
-- 🌐 https://linktr.ee/jwcmoura  
-- 👨🏻‍💻 Instagram: @JWCMOURA  
+* 🌐 [https://linktr.ee/jwcmoura](https://linktr.ee/jwcmoura)
+* 👨🏻‍💻 Instagram: @JWCMOURA
 
 ---
 
@@ -164,7 +172,10 @@ MIT License
 
 ## 📢 Aviso
 
-Este projeto **não é afiliado à Apple**.  
-Trata-se de uma solução independente para contornar um problema específico do macOS Tahoe. 
+Este projeto **não é afiliado à Apple**.
+Trata-se de uma solução independente para contornar um problema específico do macOS Tahoe.
+
+```
 
 ---
+```
