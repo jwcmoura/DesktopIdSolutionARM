@@ -187,3 +187,11 @@ Este projeto **não é afiliado à Apple**.
 Trata-se de uma solução independente para contornar um problema específico do macOS Tahoe. 
 
 ---
+
+## 🎥 Vídeo explicativo
+
+Veja abaixo um guia completo de uso e funcionamento da solução:
+
+[![Assista no YouTube](assets/yt.jpg)](https://youtu.be/7euU6Wm7WOs)
+
+Ou acesse diretamente: https://youtu.be/7euU6Wm7WOs
